@@ -1,0 +1,19 @@
+.text-area {
+    text-area-background: white;
+    -fx-text-fill: black;
+    -fx-control-inner-background: text-area-background;
+    -fx-highlight-fill: grey;
+    -fx-highlight-text-fill: black;
+}
+
+.text-area > .scroll-pane {
+        -fx-hbar-policy: never;
+        -fx-vbar-policy: never;
+}
+
+.button {
+    -fx-pref-width: 65;
+    -fx-pref-height: 50;
+    -fx-pref-alignment: center;
+}
+
